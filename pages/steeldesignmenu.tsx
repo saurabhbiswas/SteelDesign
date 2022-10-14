@@ -19,7 +19,7 @@ import Check from '@mui/icons-material/Check';
 
 const menuItemsJson = [
  
-  {
+  { 
     title: '0. Preface and Table of Content ......................................................................................................... 1',
     url: '/0.Preface and Table of Content.pdf',
     submenu: [
@@ -138,25 +138,15 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 }));
 
 
-const Dropdown = ({ submenus }) => {
-  return (
-    <ul className="dropdown">
-      {submenus.map((submenu, index) => (
-        <li key={index} className="menu-items">
-          <a href={submenu.url}>{submenu.title}</a>
-        </li>
-      ))}
-    </ul>
-  );
-};
 
 
-export const SubMenu = ({ submenus }) => {
+export const SubMenu = ({submenus}) => {
+//console.log(submenus);
   return (
   <div>
       
       {submenus.map((submenu, index) => (
-        <MenuItem>
+        <MenuItem >
           <ListItemText inset>
           {submenu.title}
           </ListItemText>
@@ -169,7 +159,8 @@ export const SubMenu = ({ submenus }) => {
 
 
 
-export default function CustomizedAccordions({ items }) {
+
+export default function CustomizedAccordions() {
   const [expanded, setExpanded] = React.useState<string | false>('panel1');
 
   const handleChange =
