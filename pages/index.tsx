@@ -125,7 +125,7 @@ export default function DrawerAppBar(props: Props) {
       
    <br/>
 <Stack direction="row" spacing={1}>
-      <Chip label="Menu of Design of Steel Structure with STAAD Pro" variant="h5" />
+      <Chip label="Menu of Design of Steel Structure with STAAD Pro" variant="filled" />
       
     </Stack>
        <br/>
