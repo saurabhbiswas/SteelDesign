@@ -21,6 +21,14 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import RestoreIcon from '@mui/icons-material/Restore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { makeStyles } from '@material-ui/core/styles';
+import Fab from '@material-ui/core/Fab';
+import AddIcon from '@material-ui/icons/Add';
+import EditIcon from '@material-ui/icons/Edit';
+
+import NavigationIcon from '@material-ui/icons/Navigation';
+import FactoryIcon from '@mui/icons-material/Factory';
+
 import Annexure from "./anex";
 
 
@@ -54,7 +62,7 @@ export default function DrawerAppBar(props: Props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        Steel Structure Design
       </Typography>
       <Divider />
       <List>
@@ -69,8 +77,19 @@ export default function DrawerAppBar(props: Props) {
     </Box>
   );
 
-  const container = window !== undefined ? () => window().document.body : undefined;
+const useStyles = makeStyles((theme) => ({
+  root: {
+    '& > *': {
+      margin: theme.spacing(1),
+    },
+  },
+  extendedIcon: {
+    marginRight: theme.spacing(1),
+  },
+}))
 
+  const container = window !== undefined ? () => window().document.body : undefined;
+const classes = useStyles();
   return (
     <Box sx={{ display: 'flex' }}>
       <AppBar component="nav">
@@ -87,9 +106,9 @@ export default function DrawerAppBar(props: Props) {
           <Typography
             variant="h6"
             component="div"
-            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
+            sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' ,paddingLeft:15} }}
           >
-            Design of Steel Structure with STAAD Pro
+               Design of Steel Structure with STAAD Pro by Mr. Saroj Biswas
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
@@ -124,21 +143,23 @@ export default function DrawerAppBar(props: Props) {
        
       
    <br/>
-<Stack direction="row" spacing={1}>
-      <Chip label="Menu of Design of Steel Structure with STAAD Pro" variant="filled" />
-      
-    </Stack>
-       <br/>
-        <SteelDesignMenu/>
+
+   <Fab variant="extended">
+        <FactoryIcon className={classes.extendedIcon} />
+       Menu of Design of Steel Structure with STAAD Pro
+      </Fab>
+ <br/> <br/>
+        <SteelDesignMenu  />
           <br/>
  
       <Annexure/>
 
-
+ <br/>
          <div >
           <Toolbar  sx={{backgroundColor:'#556cd6'}}>
-            <Typography variant="h6" component="div">
-             Sponsered by XYZ Company
+            <Typography variant="h6" component="div" sx={{margin: '0 auto' }}>
+             Design of Steel Structure with STAAD Pro By Mr. Saroj Biwas
+             
             </Typography>
           </Toolbar>
           </div>
@@ -154,3 +175,5 @@ export default function DrawerAppBar(props: Props) {
     </Box>
   );
 }
+
+//<a href="https://1drv.ms/b/s!AusqigDnpThtgYoEAyb3r50WviSIww" target="_blank" >Open Marivb</a>-->

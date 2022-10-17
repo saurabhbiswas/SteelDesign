@@ -5,7 +5,7 @@ import AddIcon from '@material-ui/icons/Add';
 import EditIcon from '@material-ui/icons/Edit';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import NavigationIcon from '@material-ui/icons/Navigation';
-
+import Link from '@mui/material/Link';
 const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
@@ -23,17 +23,26 @@ export default function FloatingActionButtons() {
   return (
     <div className={classes.root}>
      
-      <Fab variant="extended">
+      <Fab variant="extended" sx={{paddingRight: 5}}>
         <NavigationIcon className={classes.extendedIcon} />
-        ANEX-I PURLIN AND GIRT DESIGN
+        <Link
+    underline="hover" href='https://1drv.ms/f/s!AusqigDnpThtgYoXXhIzcavv65Ucng'
+    color="inherit" target="_blank"> ANEX-I PURLIN AND GIRT DESIGN</Link>
       </Fab>
-       <Fab variant="extended">
-        <NavigationIcon className={classes.extendedIcon} />
-        ANEX-II CONNECTION
+       <Fab variant="extended"  sx={{paddingRight: 5}}>
+        <NavigationIcon className={classes.extendedIcon}  />
+         <Link
+    underline="hover" href='https://1drv.ms/f/s!AusqigDnpThtgYoatbDaNYf0k75glQ'
+    color="inherit" target="_blank">
+
+        ANEX-II CONNECTION</Link>
       </Fab>
       <Fab variant="extended">
-        <NavigationIcon className={classes.extendedIcon} />
-        ANEX-III DATA TO DEATAILER
+        <NavigationIcon className={classes.extendedIcon}  />
+         <Link
+    underline="hover" href='https://1drv.ms/f/s!AusqigDnpThtgYpQiJHBjUEM5UfjzA' 
+    color="inherit" target="_blank">
+        ANEX-III DATA TO DETAILER </Link>
       </Fab>
 
     </div>

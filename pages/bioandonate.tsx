@@ -35,17 +35,17 @@ export default function BasicGrid() {
         alt="green iguana"
         height="579"
         width="448"
-        image="upi_tukul.png"
+        image="upi_saroj.png"
        />
       <CardContent sx={{pl:10,pb:15}}>
         <Typography gutterBottom component="div">
           Please Donate to If you like the content. 
         </Typography>
         <Typography gutterBottom  component="div">
-         It will help me to to serve free content.
+         It will help in keeping the website up and runnning.
          </Typography>
          <Typography gutterBottom component="div">
-          Please Donate to If you like the content. 
+          Donate!! Donate!! Donate!!
         </Typography>
      </CardContent>
      </Card>
