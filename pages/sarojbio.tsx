@@ -67,15 +67,7 @@ export default function ImgMediaCard() {
               <ListItemText primary="sarojbiswas72@gmail.com" />
             </ListItemButton>
           </ListItem>
-          <ListItem disablePadding>
-            <ListItemButton>
-              <ListItemIcon>
-                <InboxIcon />
-              </ListItemIcon>
-              <ListItemText primary="8800155290" />
-            </ListItemButton>
-          </ListItem>
-
+          
           </List>
         </Typography>
       </CardContent>
