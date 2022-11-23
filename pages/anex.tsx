@@ -38,11 +38,19 @@ export default function FloatingActionButtons() {
         ANEX-II CONNECTION</Link>
       </Fab>
       <Fab variant="extended">
-        <NavigationIcon className={classes.extendedIcon}  />
+        <NavigationIcon className={classes.extendedIcon} sx={{paddingRight: 5}} />
          <Link
     underline="hover" href='https://1drv.ms/f/s!AusqigDnpThtgYpQiJHBjUEM5UfjzA' 
     color="inherit" target="_blank">
         ANEX-III DATA TO DETAILER </Link>
+      </Fab>
+
+      <Fab variant="extended">
+        <NavigationIcon className={classes.extendedIcon}  />
+         <Link
+    underline="hover" href='https://1drv.ms/u/s!AusqigDnpThtgYtfJujxK89pqgyQeQ' 
+    color="inherit" target="_blank">
+        STAAD Template </Link>
       </Fab>
 
     </div>
