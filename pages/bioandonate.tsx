@@ -12,6 +12,12 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Image from 'next/image';
+import Fab from '@material-ui/core/Fab';
+import AddIcon from '@material-ui/icons/Add';
+import EditIcon from '@material-ui/icons/Edit';
+import FavoriteIcon from '@material-ui/icons/Favorite';
+import NavigationIcon from '@material-ui/icons/Navigation';
+import Link from '@mui/material/Link';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -32,20 +38,26 @@ export default function BasicGrid() {
         <Card >
       <CardMedia
         component="img"
-        alt="green iguana"
-        height="579"
-        width="448"
-        image="upi_saroj.png"
+        alt="hiring"
+        height="500"
+        width="100%"
+        image="hire.jpg"
        />
       <CardContent sx={{pl:10,pb:15}}>
         <Typography gutterBottom component="div">
-          Please Donate to If you like the content. 
+          SELECTION OF TRAINEE STRUCTURAL DESIGNER CUM DETAILER 
         </Typography>
         <Typography gutterBottom  component="div">
-         It will help in keeping the website up and runnning.
+         (FOR DIPLOMA IN CIVIL ENGG. AND RESIDENTS OF PORT BLAIR)
          </Typography>
          <Typography gutterBottom component="div">
-          Donate!! Donate!! Donate!!
+         <Fab variant="extended">
+           <Link
+    underline="hover"
+    color="blue" sx={{padding:2}}
+    href="#hireId" target="_self"
+  >JOB DETAILS </Link>
+  </Fab>
         </Typography>
      </CardContent>
      </Card>

@@ -17,7 +17,7 @@ import SteelDesignMenu from './steeldesignmenu';
 import Paper from '@mui/material/Paper';
 import Chip from '@mui/material/Chip';
 import Stack from '@mui/material/Stack';
-
+import Fab from '@material-ui/core/Fab';
 
 export default function Introduction() {
   return (
@@ -29,7 +29,9 @@ export default function Introduction() {
 <Paper elevation={3} sx={{  p: 2 ,height: 720 ,overflow:'auto'}} >
 
 <Stack direction="row" spacing={0}>
-      <Chip label="Introduction" />
+      <Fab variant="extended">
+      Introduction
+      </Fab>
       
     </Stack>
      

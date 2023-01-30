@@ -32,6 +32,10 @@ import FactoryIcon from '@mui/icons-material/Factory';
 import Annexure from "./anex";
 
 
+import Hire from "./hire";
+
+
+
 
 
 
@@ -155,6 +159,8 @@ const classes = useStyles();
       <Annexure/>
 
  <br/>
+
+<Hire/>
          <div >
           <Toolbar  sx={{backgroundColor:'#556cd6'}}>
             <Typography variant="h6" component="div" sx={{margin: '0 auto' }}>
