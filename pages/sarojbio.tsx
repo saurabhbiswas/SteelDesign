@@ -23,7 +23,7 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 
 export default function ImgMediaCard() {
   return (
-    <Card >
+    <Card elevation={3} sx={{  p: 2 ,height: 735 ,overflow:'auto'}}>
       <CardMedia
         component="img"
         alt="green iguana"

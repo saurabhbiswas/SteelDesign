@@ -35,7 +35,7 @@ export default function BasicGrid() {
          <SarojBio/>
         </Grid>
         <Grid xs={4} >
-        <Card >
+        <Card elevation={3} sx={{  p: 2 }}>
       <CardMedia
         component="img"
         alt="hiring"
