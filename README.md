@@ -1,5 +1,5 @@
-#Design of Steel Structure with STAAD Pro by Mr. Saroj Biswas
-Next.js with TypeScript 
+# Design of Steel Structure with STAAD Pro by Mr. Saroj Biswas
+## Next.js with TypeScript 
 
 ## How to use
 
@@ -18,8 +18,7 @@ or:
 
 <!-- #default-branch-switch -->
 
-[![Design of Steel Structure with STAAD Pro)]
-(https://www.designsteel.in/)
+[![Design of Steel Structure with STAAD Pro)](https://www.designsteel.in/)
 
 
 
