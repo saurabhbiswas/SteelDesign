@@ -1,15 +1,11 @@
-# Next.js with TypeScript example
+#Design of Steel Structure with STAAD Pro by Mr. Saroj Biswas
+Next.js with TypeScript 
 
 ## How to use
 
 Download the example [or clone the repo](https://github.com/saurabhbiswas/steeldesign.git):
 
-<!-- #default-branch-switch -->
 
-```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/nextjs-with-typescript
-cd nextjs-with-typescript
-```
 
 Install it and run:
 
@@ -22,23 +18,16 @@ or:
 
 <!-- #default-branch-switch -->
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/nextjs-with-typescript)
+[![Design of Steel Structure with STAAD Pro)]
+(https://www.designsteel.in/)
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/nextjs-with-typescript)
 
-## The idea behind the example
 
-The project uses [Next.js](https://github.com/vercel/next.js), which is a framework for server-rendered React apps.
-It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in MUI v5. If you prefer, you can [use styled-components instead](https://mui.com/material-ui/guides/interoperability/#styled-components).
+## Design of Steel Structure with STAAD Pro
 
-## The link component
+The Theory at the back of the design of Steel Structure is usually taught during B.E. /B. Tech program in Civil Engineering and its allied discipline like M.E. /M. Tech in Structural Engineering. Practical implementation of these theory to actual design of structure to be constructed, strengthened or modified remains a hurdle to freshly passed out engineers , many a times to experienced engineers as well. The author of this write up has put up his experience of “One Quarter Century “of professional practice, to showcase the design of building with two floors with flat roof for office uses, to which a single storied warehouse or work shop is attached, using STAAD Pro V8i software, Select Series 6 of Bentley and explained implementation of various code specified provisions (the provision of IS codes), both to analysis and design. Thus the design methodology used in this write up can be extended to both multistoried Steel structure as well as pre‐engineered Ware house type Steel buildings.
+## Saroj Biswas 
 
-The [example folder](https://github.com/mui/material-ui/tree/HEAD/examples/nextjs-with-typescript) provides an adapter for the use of [Next.js's Link component](https://nextjs.org/docs/api-reference/next/link) with MUI.
-More information [in the documentation](https://mui.com/material-ui/guides/routing/#next-js).
 
-## What's next?
 
-<!-- #default-branch-switch -->
 
-You now have a working example project.
-You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
