@@ -14,11 +14,7 @@ npm install
 npm run dev
 ```
 
-or:
 
-<!-- #default-branch-switch -->
-
-[![(https://www.designsteel.in/sb.png))](https://www.designsteel.in/)
 
 
 
